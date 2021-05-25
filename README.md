@@ -9,9 +9,9 @@ C:/Users/DannyL/Documents/development/marvelApiDocker/newman (right click the fo
 
 <<< Followed by '':/etc/newman postman/newman run' >>>
 
-<<< followed by the link gathered from the postman collection Share option >>>
+<<< Followed by the link gathered from the postman collection Share option >>>
 
-<<< followed by '-e env.json' - this is the name of the json file >>>
+<<< Followed by '-e env.json' - this is the name of the json file >>>
 
 <<< So the full command is below >>>>>
 docker run -v C:/Users/DannyL/Documents/development/marvelApiDocker/newman:/etc/newman postman/newman run https://www.getpostman.com/collections/5ee01326486d3d74fd31 -e env.json
